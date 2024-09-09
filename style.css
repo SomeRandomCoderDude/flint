@@ -1,0 +1,236 @@
+/*
+Theme Name: Bernard Koekemoer
+Theme URI: https://yourdomain.com
+Author: Bernard Koekemoer
+Author URI: https://yourdomain.com
+Description: Flint Studio Test
+Version: 1.0
+*/
+
+/* Define global color variables */
+:root {
+  --primary-background-color: #1b262f;
+  --heading-blue: #1a7fa8;
+  --font-size-12: 0.75rem; /* 12px */
+  --font-size-15: 0.9375rem; /* 15px */
+  --font-size-16: 1rem; /* 16px */
+  --font-size-18: 1.125rem; /* 18px */
+  --font-size-22: 1.375rem; /* 22px */
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: var(--font-size-16);
+}
+
+/*
+=================
+  header styles 
+=================
+*/
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  background: linear-gradient(180deg, #080b0d 0%, #20252a 100%);
+  border-bottom: 2px solid #2e3545;
+  position: absolute;
+  width: 100%;
+  height: 104px;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.navbar .nav-items ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar .nav-items ul li {
+  list-style: none;
+}
+
+.navbar .nav-items ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* .navbar .nav-link {
+  color: #f9f9f9;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: var(--font-size-15)
+  line-height: 22px;
+}
+
+.navbar .nav-link:hover {
+  text-decoration: none;
+} */
+
+/*
+=================
+  footer styles 
+=================
+*/
+/* top part of footer */
+
+.site-footer {
+  background-color: var(--primary-background-color);
+}
+
+.footer-content {
+  padding: 64px 0px;
+  max-width: 1280px;
+  gap: 48px;
+}
+
+.custom-padding {
+  padding: 0px 200px;
+}
+
+.heading-blue {
+  color: var(--heading-blue);
+}
+
+.contact-now-btn {
+  background: linear-gradient(0deg, #005a96 0%, #359ebd 100%);
+  padding: 12px 18px;
+  width: 150px;
+  height: 46px;
+  border-radius: 6px;
+  border: 1px solid #2e3545;
+  color: #f9f9f9;
+  font-size: var(--font-size-15);
+  line-height: 22px;
+}
+
+.footer-horizonal-container {
+  padding: 0 32px;
+  display: flex;
+  gap: 64px;
+}
+
+/* footer-split */
+hr {
+  width: 1216px;
+  height: 0px;
+  gap: 0px;
+  opacity: 0px;
+  border: 1px solid #2e3545;
+}
+
+/* footer left */
+.paragraph-text {
+  color: #dedede;
+  font-size: var(--font-size-12);
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  width: 247px;
+  height: 132px;
+}
+
+/* footer right */
+
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-right h4 {
+  color: #f9f9f9;
+  font-family: Ropa Sans, "Inter", sans-serif;
+  font-size: var(--font-size-22);
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.single-container {
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-links {
+  font-size: var(--font-size-18);
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.footer-links ul {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-links ul li {
+  list-style: none;
+}
+
+.footer-links ul li a {
+  text-transform: none;
+  color: #6e9ba8 !important;
+}
+
+/* footer copyright */
+.footer-copyright {
+  padding: 0px 32px;
+}
+
+.rating {
+  width: 24px;
+  height: 24px;
+}
+
+/* home-page */
+
+.hero-section {
+  width: 100%;
+  height: 814px;
+  background-image: url("/wp-content/themes/Bernard Koekemoer/assets/images/hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--primary-background-color);
+}
+
+.services-section {
+  background-color: var(--primary-background-color);
+  width: 100%;
+  height: 400px;
+  padding: 100px 0px 100px 0px;
+  gap: 64px;
+}
+
+.services-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  gap: 12px;
+}
+
+.services-section h2 {
+  text-align: left;
+  color: #ffffff;
+}
+
+.services-section p {
+  color: #f8f8f8;
+}
